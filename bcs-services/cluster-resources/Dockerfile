@@ -42,7 +42,7 @@ RUN cp -R $SRC_FORM_DIR/tmpl/* $TARGET_FORM_DIR/tmpl/
 RUN cp -R $SRC_FORM_DIR/schema/* $TARGET_FORM_DIR/schema/
 
 # -------------- runner container --------------
-FROM alpine:3.15 AS runner
+FROM alpine:3 AS runner
 
 LABEL maintainer="Tencent BlueKing"
 
