@@ -20,7 +20,7 @@ RUN mkdir -p ./swagger && cp -R ./third_party/swagger-ui/* ./swagger/ \
     && cp ./proto/bcsproject/bcsproject.swagger.json ./swagger/
 
 # -------------- runner container --------------
-FROM alpine:3.15 AS runner
+FROM alpine:3 AS runner
 
 LABEL maintainer="Tencent BlueKing"
 
