@@ -7,7 +7,7 @@ RUN go mod download
 COPY . .
 RUN make tidy build
 
-FROM alpine
+FROM alpine:3.18.3
 RUN apk --update --no-cache add ca-certificates bash vim
 COPY --from=builder /go/src/bcs-unified-apiserver/_output/bcs-unified-apiserver /bcs-unified-apiserver
 ENTRYPOINT ["/bcs-unified-apiserver"]
