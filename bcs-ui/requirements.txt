@@ -51,7 +51,7 @@ gevent==20.4.0
 google-auth==1.30.1
 googleapis-common-protos==1.56.0
 greenlet==1.1.0
-grpcio==1.44.0
+grpcio==1.53.2
 gunicorn==19.7.1
 h11==0.12.0
 html5lib==1.1
