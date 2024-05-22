@@ -100,7 +100,7 @@ pyasn1==0.4.8
 pycparser==2.20
 pycrypto==2.6.1
 pyjwt==1.5.3
-pymysql==1.0.2
+pymysql==1.1.1
 pyopenssl==20.0.1
 python-crontab==2.6.0
 python-dateutil==2.6.1
