@@ -126,7 +126,7 @@ tornado==5.1.1
 twisted==21.2.0
 txaio==21.2.1
 typing-extensions==3.10.0.0
-urllib3==1.24.3
+urllib3==1.26.19
 uvicorn==0.14.0
 uvloop==0.14.0
 vine==5.0.0
